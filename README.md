@@ -14,3 +14,5 @@ label (currently you can't move issues to a different github org).
 4. When in doubt, [talk to us](https://webchat.freenode.net/?channels=#raku)!
 
 See also [problem-solving/Old Issue Tracker Dismantling Plan](https://github.com/perl6/problem-solving/blob/master/solutions/rakudo/Old-Issue-Tracker-Dismantling-Plan.md).
+
+If you want to change references to RT tickets in e.g. roast, you can use the [Migration::RTtoGithub](https://modules.raku.org/dist/Migration::RTtoGithub:cpan:ELIZABETH) module that provides a programmatic interface to the mapping of old RT tickets to Github issues in the [old issue repository](https://github.com/Raku/old-issue-tracker).
